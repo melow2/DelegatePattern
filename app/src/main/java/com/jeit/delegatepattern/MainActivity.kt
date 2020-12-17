@@ -6,6 +6,8 @@ import android.util.Log
 
 class MainActivity : AppCompatActivity() {
 
+    private val tempString by customString
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -19,4 +21,5 @@ class MainActivity : AppCompatActivity() {
         Log.d("DEBUG","[Example1] - width:${example1.getWidth()}, height:${example1.getHeight()}")
         Log.d("DEBUG","[Example2] - width:${example2.getWidth()}, height:${example2.getHeight()}")
     }
+
 }

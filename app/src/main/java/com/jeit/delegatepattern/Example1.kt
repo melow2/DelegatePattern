@@ -34,3 +34,5 @@ class Example1(private val mWindow: IWindow) : IWindow {
     override fun getWidth(): Int = mWindow.getWidth()
     override fun getHeight(): Int = mWindow.getHeight()
 }
+
+class Example2(private val mWindow:IWindow):IWindow by mWindow
