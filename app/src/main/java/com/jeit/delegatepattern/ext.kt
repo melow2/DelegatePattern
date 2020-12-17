@@ -1,9 +1,6 @@
 package com.jeit.delegatepattern
 
+import android.app.Activity
 
 
-fun customString = CustomStringDelegate()
 
-class CustomStringDelegate {
-    operator fun getValue(thi)
-}
