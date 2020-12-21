@@ -1,4 +1,4 @@
-package com.jeit.delegatepattern
+package com.khs.delegatepattern
 
 import org.junit.Test
 

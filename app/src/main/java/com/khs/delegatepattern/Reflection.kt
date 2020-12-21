@@ -1,4 +1,4 @@
-package com.jeit.delegatepattern
+package com.khs.delegatepattern
 
 
 fun isEven(a:Int) = a %2==0

@@ -1,2 +1,3 @@
+include ':DelegateViewBinding'
 include ':app'
 rootProject.name = "DelegatePattern"
